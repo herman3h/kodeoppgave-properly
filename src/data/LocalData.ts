@@ -10,6 +10,7 @@ export class LocalData {
     return new Promise(resolve => {
       setTimeout(() => {
         const post: Post = {
+          id: (Math.random() * 1000000) + "",
           author: "Kristoffer Lundquist",
           title: title,
           body: body,
@@ -29,6 +30,10 @@ export class LocalData {
 
   static getProperties(): Property[] {
     return this.properties
+  }
+
+  static deletePost(post: Post) {
+    this.posts = this.posts.filter(p => p.id !== post.id)
   }
 
 }
