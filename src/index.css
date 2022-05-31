@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:rgb(242, 245, 250);
 }
 
 code {
@@ -17,3 +18,197 @@ code {
   margin-top: 50px;
   text-align: center;
 }
+
+.news_feed{
+  padding-right: 45%;
+  padding-left: 45%;
+  padding-top: 100px;
+  width: 70%;
+}
+
+.post_list{
+  width: 350px;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.feed_form {
+  margin-right: 50px;
+  text-align: center;
+  background: #fff;
+  width: 280px;
+  float: left;
+  border: 2px solid rgba(156, 174, 180, 0.34)
+}
+.feed_form label {
+  text-align: left;
+  display: block;
+}
+.feed_form h2 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.feed_form input, .feed_form textarea, .feed_form select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 1px 0px 15px 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.feed_form button {
+  background: #0107bec7;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+  width: 280px;
+}
+
+.feed_form p{
+  text-align: center;
+}
+
+
+.post_element {
+  padding-bottom: 10px;
+  background: white;
+  height: 250px;
+}
+
+.post_element {
+  margin-bottom: 10px;
+}
+
+
+
+.post_element--initials {
+  float: left;
+}
+
+.post_element--initials span {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  border-radius: 50% 50% 50% 50%; 
+  background: #0107bec7;
+  color: #fff;
+  text-align: left;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+
+.post_element--header {
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.post_element--header span {
+  font-size:16px; 
+  font-style: italic; 
+  padding-left:10px; 
+}
+
+.post_element--body {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  width: 88%;
+}
+
+.post_element--author {
+  float: left;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.post_element--author--name {
+  font-size: 15px;
+  margin-bottom: 1px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.post_element--author--property {
+  font-size: 10px;
+  margin-top: 1px;
+}
+
+.post_element--date{
+  float: right;
+  font-size:13px; 
+  padding-left:10px; 
+  margin-right: 10px;
+}
+
+.post_element--title{
+  margin-left: 10px;
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+
+
+.post_element--like{
+  float: left;
+  height: 10%;
+  border: 1px solid rgba(156, 174, 180, 0.34);
+  width: 100%;
+}
+
+.post_element--buttonliked{
+  height: 80%;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.post_element--numberlikes{
+  float: left;
+  height: 100%;
+  font-size: 12px;
+}
+
+.post_element--comments{
+  float: right;
+  height: 100%;
+  font-size: 12px;
+  margin-right: 50px;
+}
+
+.feed_form--notLoading{
+  font-size: 10px;
+}
+
+.feed_form--notLoading{
+  opacity: 0;
+}
+
+.post_list--numInnlegg{
+  font-weight: bold;
+}
+
+.post_element--settings{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.post_element--deleteButton{
+  margin-left: 30%;
+  color: red;
+  font-size: small;
+  font-weight: bold;
+}
+
+
+
+
+
+
